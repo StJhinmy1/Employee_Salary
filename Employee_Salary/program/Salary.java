@@ -19,7 +19,7 @@ public class Salary {
 		
 		employee.name = sc.nextLine();
 		
-		System.out.print("Salario bruto: ");
+		System.out.print("Salário bruto: ");
 		
 		employee.gross_salary = sc.nextDouble();
 		
@@ -28,18 +28,19 @@ public class Salary {
 		employee.tax_percentage = sc.nextDouble();
 		
 		System.out.println();
-		System.out.println("Funcionario: " + employee);
+		System.out.println("Funcionário: " + employee);
 		
 		System.out.println();
-		System.out.print("Aumento de salario %: ");
+		System.out.print("Aumento de salário %: ");
 		
 		int increase = sc.nextInt();
 		employee.increase(increase);
 		
-		System.out.print("Funcionario atualizado: " + employee.increase_result());
+		System.out.print("Funcionário atualizado: " + employee.increase_result());
 		
 		sc.close();
 
 	}
 
 }
+

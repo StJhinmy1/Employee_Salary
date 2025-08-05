@@ -1,1 +1,1 @@
-Cálculo de imposto sobre o salário bruto do funcionário resultando no salário líquido.
+Exercício feito em aula acompanhado de melhorias e/ou modificações feitas por mim para testar meu aprendizado
